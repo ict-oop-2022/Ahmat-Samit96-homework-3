@@ -1,6 +1,6 @@
-#include "AlgoritmCommon.h"
+#include "SubjectCommon.h"
 
-AlgoritmCommon::AlgoritmCommon(JobObjects files, Repository& path) {
+SubjectCommon::SubjectCommon(JobObjects files, Repository& path) {
     _newNameFile = path.getPathToRealRepo();
     while (int i = 0; i < files.getListOfFIle().size(); i++){
 

@@ -1,18 +1,18 @@
 #pragma once
 #include "JobObject.h"
 #include <ctime>
-#include <filesystem>
 #include "Repository.h"
+#include <filesystem>
 namespace fs = std::filesystem;
 
 
-class AlgoritmSingle {
+class SubjectSingle {
 private:
     JobObject _copyFile;
     string _newNameFile;
     time_t _seconds;
 public:
-    AlgoritmSingle(JobObject file, Repository& path);
+    SubjectSingle(JobObject file, Repository& path);
 
     string getNewNameFile();
 

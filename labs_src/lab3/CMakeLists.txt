@@ -1,7 +1,7 @@
 add_library(labs lab3/BackupJob.cpp lab3/BackupJob.h lab3/JobObjects.cpp
         lab3/JobObjects.h lab3/JobObject.cpp lab3/JobObject.h
-        lab3/AlgoritmSingle.cpp lab3/AlgoritmSingle.h lab3/Repository.cpp
-        lab3/Repository.h lab3/AlgoritmCommon.cpp lab3/AlgoritmCommon.h
+        lab3/SubjectSingle.cpp lab3/SubjectSingle.h lab3/Repository.cpp
+        lab3/Repository.h lab3/SubjectCommon.cpp lab3/SubjectCommon.h
         lab3/BackUp.cpp lab3/BackUp.h)
 
 target_sources(labs

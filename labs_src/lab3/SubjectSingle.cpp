@@ -1,4 +1,4 @@
-#include "AlgoritmSingle.h"
+#include "SubjectSingle.h"
 using std::to_string;
 
 
