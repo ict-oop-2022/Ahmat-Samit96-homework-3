@@ -1,8 +1,8 @@
 #include "SubjectCommon.h"
 
 SubjectCommon::SubjectCommon(JobObjects files, Repository& path) {
-    _newNameFile = path.getPathToRealRepo();
-    while (int i = 0; i < files.getListOfFIle().size(); i++){
+    _newNameFile  = path.getPathToRealRepo();
+    while (int i  = 0; i < files.getListOfFIle().size(); i++){
 
         if (std::filesystem::exists(files.getListOfFIle()[i].getNameOrPathOfFile()))
     {
@@ -25,7 +25,7 @@ SubjectCommon::SubjectCommon(JobObjects files, Repository& path) {
             _newNameFile += files.getListOfFIle()[i].getOnlyNameFile() + "_";
         }
         _seconds = time(nullptr);
-        _newNameFile += to_string(_seconds) + ".zip";
+        _newNameFile  += to_string(_seconds) + ".zip";
         path.addNameOfFileToImgRepo(_newNameFile);
     }
 }
