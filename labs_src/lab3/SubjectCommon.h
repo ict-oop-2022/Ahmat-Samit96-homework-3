@@ -6,12 +6,12 @@
 namespace fs = std::filesystem;
 using std::to_string;
 
-class AlgoritmCommon {
+class SubjectCommon {
 private:
     string _newNameFile, _flag;
     time_t _seconds;
 public:
-    AlgoritmCommon(JobObjects files, Repository& path);
+    SubjectCommon(JobObjects files, Repository& path);
 
 };
 

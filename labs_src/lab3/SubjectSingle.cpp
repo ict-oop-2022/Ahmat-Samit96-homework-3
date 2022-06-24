@@ -1,8 +1,8 @@
-#include "AlgoritmSingle.h"
+#include "SubjectSingle.h"
 using std::to_string;
 
 
-AlgoritmSingle::AlgoritmSingle(JobObject file, Repository& path) {
+SubjectSingle::SubjectSingle(JobObject file, Repository& path) {
     if (std::filesystem::exists(file.getNameOrPathOfFile())){
         string suff;
         _seconds = time(nullptr);
@@ -21,7 +21,7 @@ AlgoritmSingle::AlgoritmSingle(JobObject file, Repository& path) {
 
 }
 
-string AlgoritmSingle::getNewNameFile() {
+string SubjectSingle::getNewNameFile() {
     return _newNameFile;
 }
 
