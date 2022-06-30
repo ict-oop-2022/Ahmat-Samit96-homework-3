@@ -1,5 +1,5 @@
-#pragma once
-#include "JobObjects.h"
+pragma once
+include "JobObjects.h"
 #include "JobObject.h"
 #include "AlgoritmCommon.h"
 #include "AlgoritmSingle.h"
